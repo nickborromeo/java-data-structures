@@ -1,0 +1,21 @@
+package com.borromeo.dnode;
+// Nicholas Borromeo
+// Carmel Jade T. Bual
+// Doubly Linked List Exercise
+// December 14, 2006
+
+//***********************  IntDLLNode.java  *********************
+
+public class IntDLLNode {
+    int info;
+    IntDLLNode next = null, prev = null;
+    IntDLLNode() {
+    }
+    IntDLLNode(int el) {
+        info =  el;
+    }
+    IntDLLNode(int el, IntDLLNode n, IntDLLNode p) {
+        info = el; next = n; prev = p; 
+    }
+} 
+

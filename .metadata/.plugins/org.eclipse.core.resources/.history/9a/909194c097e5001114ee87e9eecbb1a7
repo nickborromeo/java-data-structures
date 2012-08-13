@@ -1,0 +1,212 @@
+// Nicholas Borromeo
+// Carmel Jade T. Bual
+// Doubly Linked List Exercise
+// December 14, 2006
+
+//************************  IntDLList2.java  ***************************/
+
+public class IntDLList2 implements DLinkedListExercise {
+    private IntDLLNode head, tail;
+    public IntDLList2() {
+        head = tail = null;
+    }
+    public boolean isEmpty() {
+        return head == null;
+    }
+    public void setToNull() {
+        head = tail = null;
+    }
+    public int firstEl() {
+        if (!isEmpty())
+             return head.info;
+        else return 0;
+    }
+    public void addToDLListHead(int el) {
+        if (!isEmpty()) {
+             head = new IntDLLNode(el,head,null);
+             head.next.prev = head;
+        }
+        else head = tail = new IntDLLNode(el);
+    }
+    public void addToDLListTail(int el) {
+        if (!isEmpty()) {
+             tail = new IntDLLNode(el,null,tail);
+             tail.prev.next = tail;
+        }
+        else head = tail = new IntDLLNode(el);
+    }
+    public int deleteFromDLListHead() {
+        if (!isEmpty()) {        // if at least one node in the list;
+             int el = head.info;
+             if (head == tail)   // if only one node in the list;
+                  head = tail = null;
+             else {              // if more than one node in the list;
+                  head = head.next;
+                  head.prev = null;
+             }
+             return el;
+        }
+        else return 0;
+    }
+    public int deleteFromDLListTail() {
+        if (!isEmpty()) {
+             int el = tail.info;
+             if (head == tail)   // if only one node on the list;
+                  head = tail = null;
+             else {              // if more than one node in the list;
+                  tail = tail.prev;
+                  tail.next = null;
+             }
+             return el;
+        }
+        else return 0;
+    }
+    public void printAll() { //OutputStream Out) {
+        for (IntDLLNode tmp = head; tmp != null; tmp = tmp.next)
+             System.out.print(tmp.info + " ");
+    }
+    
+    public boolean isInList(int el) {
+        IntDLLNode tmp;
+        for (tmp = head; tmp != null && tmp.info != el; tmp = tmp.next);
+        return tmp != null;
+    }
+
+	// 1). Delete an ith node on a doubly-linked list.  Be sure that such node exists.    
+    public void deleteIthNode(int i) {
+    	int ctr = 1,j=1;
+    	IntDLLNode temp,temp2;
+
+        for (temp = head; temp != null; temp = temp.next) ctr++;	//counter of the elements
+    	
+    	if ( !isEmpty() && i <= (ctr-1) && i > 0){
+    		for(temp2 = head; temp2 != null; temp2 = temp2.next,j++){
+    			if(j == i){
+    				if(temp2 == head)				//if temp is the head
+    					deleteFromDLListHead();
+    				else if(temp2 == tail)			//if temp is the tail
+    					deleteFromDLListTail();
+    				else{							//temp is anywhere in the list
+    					temp2.prev.next = temp2.next;
+    					temp2.next.prev = temp2.prev.prev;
+    				}//end else
+    			}//end if
+    		}//end fro
+    	}//end if
+    	else
+    		System.out.println("Invalid Range!");
+	
+    }//end deleteIthNode
+
+	// 2). if p -> 2 in list 1 2 3, then after inserting 4, the list is 1 4 2 3;
+	public void insertBefore(IntDLLNode p, int n) {
+		if (!isEmpty()){
+    		IntDLLNode check;
+    		for(check = head; check != tail; check = check.next){ // gives p a value of a node in the list
+    	 			if(p.info == check.info)
+    	 				p = check;
+    	 			else if(p.info == tail.info) 	// loop does not reach tail
+    	 				p = tail;					// value of tail is placed in p
+    	 	}//end for
+    		if(p == head)
+    	 		addToDLListHead(n);
+    	 	else{
+    	 		IntDLLNode temp = new IntDLLNode(n);
+    	 		IntDLLNode prev,last;
+    	 		for(prev = head; prev.next != p ; prev = prev.next); // loop that tranverses until the node before p
+    	 		last = p.prev;
+    	 		
+    	 		prev.next = temp;
+    	 		temp.next = p;
+    	 		p.prev = temp.prev;
+    	 		temp.prev = last.prev;
+    	 	}
+    	}//end if
+    	else
+    		System.out.println("EMPTY!");
+	}//end insertBefore
+
+	// 3). if p -> 2 in list 1 2 3, then after inserting 4, the list is 1 2 4 3;
+	public void insertAfter(IntDLLNode p, int n) {
+		if (!isEmpty()){
+    		IntDLLNode check;
+    		for(check = head; check != tail; check = check.next)	//loop to place the value in the passed node p
+    	 			if(p.info == check.info)					
+    	 				p = check;
+    	 	if(p.next == null)
+    	 		addToDLListTail(n);
+    	 	else{
+    	 		IntDLLNode temp = new IntDLLNode(n);
+    	 		IntDLLNode after = p.next;	// saves the node after p before new node is inserted
+    	 		p.next = temp;
+    	 		temp.next = after;
+    	 		after.prev = temp.prev;
+    	 		temp.prev = p.prev;
+    	 	}
+    	}//end if
+    	else
+    		System.out.println("EMPTY!");
+	}//end insertAfter
+
+	// 4). reverse a singly linked-list using only one pass through the list;
+	public void reverseList() {
+		IntDLLNode temp,after = head;
+		
+		for(temp = head.next; temp != null; temp = temp.next)
+			addToDLListHead(temp.info);
+			
+		after.next = null;
+		
+	}//end reverseList
+	
+	// 5). count the number of elements in a doubly-linked list;
+    public int count() {
+    	int ctr = 1;
+    	for (IntDLLNode temp = head; temp != tail; temp = temp.next, ctr++);
+    	return ctr;
+    }//end count
+    
+	// 6). insert an item exactly in the middle of a doubly-linked list;
+    public void insertMiddle(int el) {
+    	if(head.next != null){
+    		int num = count();
+    		int pos = num / 2;
+    		if(num % 2 == 1) pos++;
+    		IntDLLNode temp = head;   		
+    		for(int i = 0; i < (pos-1); temp = temp.next, i++) ;
+    		IntDLLNode bago = new IntDLLNode(el);    	
+    		temp.next.prev = bago.prev; 	
+    		bago.next = temp.next;
+    		bago.prev = temp;
+    		temp.next = bago; 
+    	}//end if
+    	else
+     	{
+     		IntDLLNode bago = new IntDLLNode(el);    
+     		bago.prev = head;
+     		head.next = bago;	
+     	}//end else	
+    }
+    
+    // 7). delete an element from a doubly-linked list;
+    public void delete(int n) {
+    	IntDLLNode temp = head;
+	 	
+	 	int num = count();
+	 	for(int i=0; i<num; temp = temp.next, i++){
+	 		if(temp.info == n){
+	 			if(temp == head)
+	 				deleteFromDLListHead();
+	 			else if(temp == tail)
+	 				deleteFromDLListTail();
+	 			else{
+	 				temp.prev.next = temp.next;
+		 			temp.next.prev = temp.prev;
+	 			}
+	 		}//end if
+	 		else
+	 			System.out.println("not in the list");
+	 	}//end for
+	 }//end delete
+}
+

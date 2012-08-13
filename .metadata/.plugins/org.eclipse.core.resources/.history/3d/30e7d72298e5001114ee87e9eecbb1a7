@@ -1,0 +1,20 @@
+// Nicholas Borromeo
+// Doubly Linked List Exercise
+
+package com.borromeo.dnode;
+
+//***********************  IntDLLNode.java  *********************
+
+public class IntDLLNode {
+    int info;
+    IntDLLNode next = null, prev = null;
+    IntDLLNode() {
+    }
+    public IntDLLNode(int el) {
+        info =  el;
+    }
+    public IntDLLNode(int el, IntDLLNode n, IntDLLNode p) {
+        info = el; next = n; prev = p; 
+    }
+} 
+
