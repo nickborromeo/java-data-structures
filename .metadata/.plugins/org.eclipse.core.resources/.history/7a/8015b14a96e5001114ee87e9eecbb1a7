@@ -1,0 +1,163 @@
+package com.borromeo.slist;
+//************************  IntSLList2.java  **************************
+//singly-linked list class to store integers implementing an interface
+
+import java.io.*;
+
+import com.borromeo.snode.IntSLLNode;
+
+public class IntSLList2 implements SingleLinkedList {
+    protected IntSLLNode head, tail;
+    public IntSLList2() {
+        head = tail = null;
+    }
+    public boolean isEmpty() {
+        return head == null;
+    }
+    public void addToHead(int el) {
+        head = new IntSLLNode(el,head);
+        if (tail == null)
+            tail = head;
+    }
+    public void addToTail(int el) {
+        if (!isEmpty()) {
+            tail.next = new IntSLLNode(el);
+            tail = tail.next;
+        }
+        else head = tail = new IntSLLNode(el);
+    }
+    public int deleteFromHead() { // delete the head and return its info; 
+        int el = head.info;
+        if (head == tail)    // if only one node on the list;
+             head = tail = null;
+        else head = head.next;
+        return el;
+    }
+    public int deleteFromTail() { // delete the tail and return its info;
+        int el = tail.info;
+        if (head == tail)    // if only one node in the list;
+             head = tail = null;
+        else {               // if more than one node in the list,
+             IntSLLNode tmp;    // find the predecessor of tail;
+             for (tmp = head; tmp.next != tail; tmp = tmp.next);
+             tail = tmp;     // the predecessor of tail becomes tail;
+             tail.next = null;
+        }
+        return el;
+    }
+    public void printAll() {
+        for (IntSLLNode tmp = head; tmp != null; tmp = tmp.next)
+            System.out.print(tmp.info + " ");                
+    }
+    public boolean isInList(int el) {
+        IntSLLNode tmp;
+        for (tmp = head; tmp != null && tmp.info != el; tmp = tmp.next);
+        return tmp != null;
+    }
+    public void delete(int el) {  // delete the node with an element el;
+        if (!isEmpty())
+            if (head == tail && el == head.info) // if only one
+                 head = tail = null;             // node on the list;
+            else if (el == head.info) // if more than one node on the list;
+                 head = head.next;    // and el is in the head node;
+            else {                    // if more than one node in the list
+                 IntSLLNode pred, tmp;   // and el is in a non-head node;
+                 for (pred = head, tmp = head.next;  
+                      tmp != null && tmp.info != el; 
+                      pred = pred.next, tmp = tmp.next);
+                 if (tmp != null) {   // if el was found;
+                     pred.next = tmp.next;
+                     if (tmp == tail) // if el is in the last node;
+                        tail = pred;
+                 }
+            }
+    }
+    
+    public void deleteIthNode(int i) throws IOException {
+    	int ctr = 1;
+    	IntSLLNode tmp1;
+
+        for (tmp1 = head; tmp1 != null; tmp1 = tmp1.next) ctr++;
+    	
+    	if ( !isEmpty() && i <= (ctr-1) && i > 0){
+    		if (i == 1)
+    			head = head.next;
+    		
+    		else{
+    			IntSLLNode pred, tmp;  
+    			 
+    			int j = 2;
+    			pred = head;
+    			tmp = head.next;
+    			while(j < i){
+    			 	pred = pred.next;
+    			 	tmp = tmp.next;
+    			 	j++;
+    			 }//end while
+    		
+    		     if (tmp != null) {   
+                     pred.next = tmp.next;
+                     if (tmp == tail) 
+                        tail = pred;
+                 }//end if	
+    		}//end else
+    	}//end if
+    	else
+    		System.out.println("Invalid Range!");
+    }
+    
+    public void insertBefore(IntSLLNode p, int n){
+    	if (!isEmpty()){
+    		IntSLLNode check;
+    		for(check = head; check != tail; check = check.next){ // gives p a value of a node in the list
+    	 			if(p.info == check.info)
+    	 				p = check;
+    	 			else if(p.info == tail.info) 	// loop does not reach tail
+    	 				p = tail;					// value of tail is placed in p
+    	 	}//end for
+    		if(p == head)
+    	 		addToHead(n);
+    	 	else{
+    	 		IntSLLNode temp = new IntSLLNode(n);
+    	 		IntSLLNode prev,last;
+    	 		for(prev = head; prev.next != p ; prev = prev.next); // loop that tranverses until the node before p
+    	 		prev.next = temp;
+    	 		temp.next = p;
+    	 	}
+    	}//end if
+    	else
+    		System.out.println("EMPTY!");
+	 	
+    }//end insertBefore
+    
+     public void insertAfter(IntSLLNode p, int n){
+    	if (!isEmpty()){
+    		IntSLLNode check;
+    		for(check = head; check != tail; check = check.next)	//loop to place the value in the passed node p
+    	 			if(p.info == check.info)					
+    	 				p = check;
+    	 	if(p.next == null)
+    	 		addToTail(n);
+    	 	else{
+    	 		IntSLLNode temp = new IntSLLNode(n);
+    	 		IntSLLNode after = p.next;	// saves the node after p before new node is inserted
+    	 		p.next = temp;				
+    	 		temp.next = after;
+    	 	}
+    	}//end if
+    	else
+    		System.out.println("EMPTY!");
+	 	
+    }//end insertAfter
+    
+    public void reverseList(){
+    	IntSLLNode temp,temp2 = head;
+    	
+    	for(temp = head.next; temp != null; temp = temp.next)
+    		addToHead(temp.info);
+    		
+    	temp2.next = null;
+  }//end reverseList
+   
+}
+
