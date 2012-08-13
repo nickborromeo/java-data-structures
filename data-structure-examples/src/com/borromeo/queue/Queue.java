@@ -1,7 +1,8 @@
-package com.borromeo.queue;
+/*
+ * Implementation of a Queue
+ */
 
-//Nicholas Borromeo 
-// Queue Class
+package com.borromeo.queue;
 
 public class Queue {
     private java.util.LinkedList list = new java.util.LinkedList();

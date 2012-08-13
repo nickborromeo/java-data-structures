@@ -14,7 +14,7 @@ public class PerfectlyBalancedTest {
 	//static final int SIZE = 10;
 	
 	public static void main(String[] args) throws IOException {
-		BufferedReader stdin = new BufferedReader (new FileReader("balance.in")); 
+		BufferedReader stdin = new BufferedReader (new FileReader("perfect-balance.in")); 
 		
 		while(stdin.ready()){
 			

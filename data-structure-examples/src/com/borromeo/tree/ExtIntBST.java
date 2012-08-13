@@ -1,5 +1,5 @@
 /*
- * This class extends the base 
+ * This class extends the base class for the binary tree definition
  */
 
 package com.borromeo.tree;

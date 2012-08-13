@@ -1,9 +1,9 @@
-package com.borromeo.tree;
-
 
 /************************  IntBST.java  **************************
  *                 binary search tree of integers
  */
+
+package com.borromeo.tree;
 
 import com.borromeo.nodes.IntBSTNode;
 import com.borromeo.queue.*;

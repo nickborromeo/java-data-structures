@@ -1,0 +1,131 @@
+/*
+ * This class extends the ExtIntBST class to create methods specific for AVL Trees
+ */
+
+package com.borromeo.avl;
+
+import com.borromeo.nodes.*;
+import com.borromeo.tree.*;
+import java.io.*;
+import java.util.*;
+
+
+public class IntAVL extends ExtIntBST{
+	
+	protected IntAVLNode root;
+	
+	public IntAVL(){
+		root = null;
+	}
+	
+	protected void visit(IntAVLNode p){
+		System.out.print(p.key + "("+ p.balanceFactor+") ");
+	}
+	
+	public void inorder() {
+        inorder(root);
+    }
+    protected void inorder(IntAVLNode p) {
+        if (p != null) {
+             inorder(p.left);
+             visit(p);
+             inorder(p.right);
+        }//end if
+    }
+    
+    public int height(IntAVLNode p){
+        if(p == null)
+            return 0;
+        else 
+            treeHeight =  Math.max(height(p.right),height(p.left))+1;
+                                                                                                                                                                                  
+        return treeHeight;
+    }
+
+	public void insert(int el) {
+        IntAVLNode p = root, prev = null;
+        
+        while (p != null) {  // find a place for inserting new node;
+            prev = p;
+            if (p.key < el)
+                 p = p.right;
+            else p = p.left;
+        }//end while
+        
+        if (root == null){    // tree is empty;
+             root = new IntAVLNode(el,prev);
+             getBalanceFactor(root,el);
+        }
+        else if (prev.key < el){
+        	prev.right = new IntAVLNode(el,prev);
+        	getBalanceFactor(prev.right,el);
+        }	
+        else{
+        	prev.left  = new IntAVLNode(el,prev);
+        	getBalanceFactor(prev.left,el);
+        }
+        	
+    }
+    
+    protected void getBalanceFactor(IntAVLNode p, int el){
+		if(p != null){
+			p.balanceFactor = (height(p.right) - height(p.left));
+			
+			if(p.balanceFactor > 1 || p.balanceFactor < -1)
+				AVLBalance(p,el);
+			
+			getBalanceFactor(p.parent,el);
+		}//end if
+			
+	}
+
+    protected void AVLBalance(IntAVLNode P, int el){
+    		
+    		if(el < P.key){
+    			if(el < P.left.key){ 			// left aligned
+		    	    IntAVLNode Q = P.left;
+		    	    P.left = Q.right;
+		    	    Q.right = P;
+		    	    P.parent.left = Q;
+		    	    getBalanceFactor(Q,el);
+		    	}//end if
+		    	
+		    	else{							//needs a double rotation
+		    		//first rotation
+		    				    		
+		    	    //second rotation
+		    	    		    	
+		    	}//end else
+    		}//end if
+    		else if (el > P.key){
+    			if(el > P.right.key){ 			// right aligned
+    				IntAVLNode Q = P.right;
+    				P.right = Q.left;
+    				Q.left = P;
+    				P.parent.right = Q;
+    				getBalanceFactor(Q,el);
+    			}//end if
+    			
+    			else{							//needs a double rotation
+    				IntAVLNode temp = new IntAVLNode(P.key, P.parent);
+    				IntAVLNode temp1 = P;
+    				IntAVLNode Q = P.right;
+    				IntAVLNode R = Q.left;
+    				
+    				R.left = temp;
+    				R.right = Q;
+    				temp1 = R;
+    				temp.parent.right = temp1;
+    			
+    				
+    				//getBalanceFactor(P,el);
+    			}//end else
+    		}//end else-if
+    }
+    
+    
+    
+}//end - class
+
+	
+	

@@ -1,7 +1,8 @@
-package com.borromeo.stack;
+/*
+ * Implemenation of a Stack
+ */
 
-//Nicholas Borromeo 
-// Stack Class
+package com.borromeo.stack;
 
 import java.io.*;
 import java.util.*;
