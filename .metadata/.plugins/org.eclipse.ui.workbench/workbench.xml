@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="25" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="1342" y="108">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="136" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="120" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1344896210248" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="5"/>
+<part id="3"/>
+<part id="1"/>
+<part id="2"/>
+<part id="4"/>
+<part id="6"/>
+<part id="7"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntAVL.java" partName="IntAVL.java" path="/Users/nickborromeo/Development/Java/data-structures/data-structure-examples/src/com/borromeo/avl/IntAVL.java" title="IntAVL.java" tooltip="data-structure-examples/src/com/borromeo/avl/IntAVL.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/data-structure-examples/src/com/borromeo/avl/IntAVL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="856" selectionTopPixel="646"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntAVLNode.java" partName="IntAVLNode.java" path="/Users/nickborromeo/Development/Java/data-structures/data-structure-examples/src/com/borromeo/nodes/IntAVLNode.java" title="IntAVLNode.java" tooltip="data-structure-examples/src/com/borromeo/nodes/IntAVLNode.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/data-structure-examples/src/com/borromeo/nodes/IntAVLNode.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntBSTNode.java" partName="IntBSTNode.java" path="/Users/nickborromeo/Development/Java/data-structures/data-structure-examples/src/com/borromeo/nodes/IntBSTNode.java" title="IntBSTNode.java" tooltip="data-structure-examples/src/com/borromeo/nodes/IntBSTNode.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/data-structure-examples/src/com/borromeo/nodes/IntBSTNode.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExtIntBST.java" partName="ExtIntBST.java" path="/Users/nickborromeo/Development/Java/data-structures/data-structure-examples/src/com/borromeo/tree/ExtIntBST.java" title="ExtIntBST.java" tooltip="data-structure-examples/src/com/borromeo/tree/ExtIntBST.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/data-structure-examples/src/com/borromeo/tree/ExtIntBST.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="71" selectionTopPixel="1610"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntBST.java" partName="IntBST.java" path="/Users/nickborromeo/Development/Java/data-structures/data-structure-examples/src/com/borromeo/tree/IntBST.java" title="IntBST.java" tooltip="data-structure-examples/src/com/borromeo/tree/IntBST.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/data-structure-examples/src/com/borromeo/tree/IntBST.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="28" selectionOffset="128" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AVLTreeTest.java" partName="AVLTreeTest.java" path="/Users/nickborromeo/Development/Java/data-structures/data-structure-examples/src/com/borromeo/main/AVLTreeTest.java" title="AVLTreeTest.java" tooltip="data-structure-examples/src/com/borromeo/main/AVLTreeTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/data-structure-examples/src/com/borromeo/main/AVLTreeTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="73" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dijkstra.java" partName="Dijkstra.java" title="Dijkstra.java" tooltip="/Users/nickborromeo/Desktop/Ateneo/CS 221/Finals/DSAlgoExercises - Java/Dijkstra/Dijkstra.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Dijkstra/Dijkstra.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dijkstra2.java" partName="Dijkstra2.java" title="Dijkstra2.java" tooltip="/Users/nickborromeo/Desktop/Ateneo/CS 221/Finals/DSAlgoExercises - Java/Dijkstra/Dijkstra2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Dijkstra/Dijkstra2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="47" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (4 items)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.wb.core.StructureView"/>
+<show_view_action id="org.eclipse.wb.core.PaletteView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.StructureView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.PaletteView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6486b4d5" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74963397" ratioLeft="512" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@183d1102" ratio="0.7493438" ratioLeft="571" ratioRight="191" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.5" ratioLeft="256" ratioRight="256" relationship="4" relative="org.eclipse.ui.internal.ViewStack@183d1102">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5988287" ratioLeft="409" ratioRight="274" relationship="4" relative="left"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/main/BinarySearchTreeTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/avl/IntAVL.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/nodes/IntAVLNode.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/avl/IntAVL.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/main/BinarySearchTreeTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/main/PerfectlyBalancedTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/nodes/IntBSTNode.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/queue/Queue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/stack/Stack.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/tree/ExtIntBST.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/tree/IntBST.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/main/TestBST.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/data-structure-examples/src/com/borromeo/main/AVLTreeTest.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Dijkstra/Dijkstra.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Dijkstra/Dijkstra2.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Interpreter/Interpreter/Interpreter.java"/>
+</editors>
+<item historyLabel="BinarySearchTreeTest.java" index="0">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="1">
+<position info="not_deleted" x="223" y="0"/>
+</item>
+<item historyLabel="IntAVLNode.java" index="2">
+<position info="not_deleted" x="75" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="1">
+<position info="not_deleted" x="223" y="0"/>
+</item>
+<item historyLabel="IntAVLNode.java" index="2">
+<position info="not_deleted" x="122" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="BinarySearchTreeTest.java" index="4">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="PerfectlyBalancedTest.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IntAVLNode.java" index="2">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="IntBSTNode.java" index="6">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="Queue.java" index="7">
+<position info="not_deleted" x="31" y="0"/>
+</item>
+<item historyLabel="Stack.java" index="8">
+<position info="not_deleted" x="31" y="0"/>
+</item>
+<item historyLabel="ExtIntBST.java" index="9">
+<position info="not_deleted" x="71" y="0"/>
+</item>
+<item historyLabel="IntBST.java" index="10">
+<position info="not_deleted" x="128" y="28"/>
+</item>
+<item historyLabel="TestBST.java" index="11">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="PerfectlyBalancedTest.java" index="5">
+<position info="not_deleted" x="219" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="11">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="AVLTreeTest.java" index="12">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="BinarySearchTreeTest.java" index="4">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="PerfectlyBalancedTest.java" index="5">
+<position info="not_deleted" x="219" y="0"/>
+</item>
+<item historyLabel="AVLTreeTest.java" index="12">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="BinarySearchTreeTest.java" index="4">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="AVLTreeTest.java" index="12">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="AVLTreeTest.java" index="12">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="Queue.java" index="7">
+<position info="not_deleted" x="31" y="0"/>
+</item>
+<item historyLabel="ExtIntBST.java" index="9">
+<position info="not_deleted" x="71" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="ExtIntBST.java" index="9">
+<position info="not_deleted" x="71" y="0"/>
+</item>
+<item historyLabel="IntBST.java" index="10">
+<position info="not_deleted" x="128" y="28"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="AVLTreeTest.java" index="12">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="AVLTreeTest.java" index="12">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="IntAVLNode.java" index="2">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="IntBSTNode.java" index="6">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="856" y="0"/>
+</item>
+<item historyLabel="AVLTreeTest.java" index="12">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="IntAVL.java" index="3">
+<position info="not_deleted" x="856" y="0"/>
+</item>
+<item historyLabel="Dijkstra.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Dijkstra2.java" index="14">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item historyLabel="Dijkstra.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Dijkstra2.java" index="14">
+<position info="not_deleted" x="47" y="0"/>
+</item>
+<item historyLabel="Dijkstra.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Interpreter.java" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Dijkstra.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@183d1102"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Interpreter.java" tooltip="/Users/nickborromeo/Desktop/Ateneo/CS 221/Finals/DSAlgoExercises - Java/Interpreter/Interpreter/Interpreter.java">
+<persistable uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Interpreter/Interpreter/Interpreter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dijkstra2.java" tooltip="/Users/nickborromeo/Desktop/Ateneo/CS 221/Finals/DSAlgoExercises - Java/Dijkstra/Dijkstra2.java">
+<persistable uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Dijkstra/Dijkstra2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dijkstra.java" tooltip="/Users/nickborromeo/Desktop/Ateneo/CS 221/Finals/DSAlgoExercises - Java/Dijkstra/Dijkstra.java">
+<persistable uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Finals/DSAlgoExercises%20-%20Java/Dijkstra/Dijkstra.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="balance.in" tooltip="data-structure-examples/balance.in">
+<persistable path="/data-structure-examples/balance.in"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntBST.java" tooltip="data-structure-examples/src/com/borromeo/tree/IntBST.java">
+<persistable path="/data-structure-examples/src/com/borromeo/tree/IntBST.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExtIntBST.java" tooltip="data-structure-examples/src/com/borromeo/tree/ExtIntBST.java">
+<persistable path="/data-structure-examples/src/com/borromeo/tree/ExtIntBST.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stack.java" tooltip="data-structure-examples/src/com/borromeo/stack/Stack.java">
+<persistable path="/data-structure-examples/src/com/borromeo/stack/Stack.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Queue.java" tooltip="data-structure-examples/src/com/borromeo/queue/Queue.java">
+<persistable path="/data-structure-examples/src/com/borromeo/queue/Queue.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntBSTNode.java" tooltip="data-structure-examples/src/com/borromeo/nodes/IntBSTNode.java">
+<persistable path="/data-structure-examples/src/com/borromeo/nodes/IntBSTNode.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntAVLNode.java" tooltip="data-structure-examples/src/com/borromeo/nodes/IntAVLNode.java">
+<persistable path="/data-structure-examples/src/com/borromeo/nodes/IntAVLNode.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PerfectlyBalancedTest.java" tooltip="data-structure-examples/src/com/borromeo/main/PerfectlyBalancedTest.java">
+<persistable path="/data-structure-examples/src/com/borromeo/main/PerfectlyBalancedTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTreeTest.java" tooltip="data-structure-examples/src/com/borromeo/main/BinarySearchTreeTest.java">
+<persistable path="/data-structure-examples/src/com/borromeo/main/BinarySearchTreeTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntAVL.java" tooltip="data-structure-examples/src/com/borromeo/avl/IntAVL.java">
+<persistable path="/data-structure-examples/src/com/borromeo/avl/IntAVL.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBST.java" tooltip="/Users/nickborromeo/Desktop/Ateneo/CS 221/Midterm/DSAlgoExercises-Java/Trees/mirrorBinaryTree/TestBST.java">
+<persistable uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Midterm/DSAlgoExercises-Java/Trees/mirrorBinaryTree/TestBST.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExtIntBST.java" tooltip="/Users/nickborromeo/Desktop/Ateneo/CS 221/Midterm/DSAlgoExercises-Java/Trees/mirrorBinaryTree/ExtIntBST.java">
+<persistable uri="file:/Users/nickborromeo/Desktop/Ateneo/CS%20221/Midterm/DSAlgoExercises-Java/Trees/mirrorBinaryTree/ExtIntBST.java"/>
+</file>
+</mruList>
+</workbench>
